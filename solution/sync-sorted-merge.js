@@ -19,6 +19,7 @@ module.exports = (logSources, printer) => {
     let oldestLogEntry = lastLogEntries.pop();
     if (oldestLogEntry) {
       printer.print(oldestLogEntry);
+
       let logIndex = oldestLogEntry.index;
       let unsortedLogSource = appendIndex(logSources[logIndex], logIndex);
       if (unsortedLogSource) {
