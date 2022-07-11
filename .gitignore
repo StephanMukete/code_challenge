@@ -72,4 +72,4 @@ npm-debug.log
 .vagrant
 
 # Coverage report #
-/coverage/
+coverage
